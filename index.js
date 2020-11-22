@@ -43,5 +43,23 @@ const promptUser = () => {
         type: 'input',
         message: 'What is your email?',
         name: 'email',
-    }])
+    }]).then(function (response) {
+        console.log(response);
+        let README = generateREADME(response);
+
+        writeFileAsync('README.md', README).then(
+            err => console.log('success!')
+        );
+    })
+}
+promptUser();
+
+// using input generation .md file in string format
+function generateREADME(response) {
+    let READMEString = `
+    
+
+    `
+
+    return READMEString;
 }
