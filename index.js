@@ -96,9 +96,9 @@ ${response.contributors}
 
 ## Tests
 
-${response.test}
+${response.tests}
 
-##Questions
+## Questions
 
 You can find other projects that I have worked on at https://github.com/${response.gitHub}.
 If there are any questions you may have please contact me at ${response.email}.  
