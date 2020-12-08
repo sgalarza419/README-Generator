@@ -4,7 +4,6 @@
 ## Description 
 
 This project generates a README file using the command-line.  The file is dynamically created with user input utilizing the Inquirer package.  
-![badmath](https://img.shields.io/badge/-MIT-yellow/)
 
 ## Table of Contents 
 
